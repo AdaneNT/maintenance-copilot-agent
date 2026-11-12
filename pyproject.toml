@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maint-agent"
+version = "0.1.0"
+description = "Agentic AI assistant for industrial equipment maintenance (LangGraph, tool use, RAG, evaluation, guardrails)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "langgraph>=0.2.60",
+    "langchain-core>=0.3",
+    "langchain-openai>=0.2",
+    "langchain-ollama>=0.2",
+    "langchain-groq>=0.2",
+    "pandas>=2.0",
+    "numpy>=1.26",
+    "scikit-learn>=1.3",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+api = ["fastapi>=0.110", "uvicorn>=0.29"]
+dev = ["pytest>=8", "ruff>=0.5"]
+
+[project.scripts]
+maint-agent = "maint_agent.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"

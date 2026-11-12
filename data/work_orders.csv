@@ -1,0 +1,8 @@
+work_order_id,equipment_id,date,type,status,description
+WO-1001,P-101,2026-06-14,preventive,closed,Quarterly lubrication and alignment check. No findings.
+WO-1002,P-102,2026-05-02,corrective,closed,Replaced mechanical seal after minor leakage.
+WO-1003,P-102,2026-08-20,preventive,closed,Vibration route measurement. Values within zone A.
+WO-1004,C-201,2026-07-11,corrective,closed,Lube oil cooler cleaned after high oil temperature alarm.
+WO-1005,C-201,2026-09-21,inspection,open,Investigate bearing temperature excursion recorded on 2026-09-20.
+WO-1006,HX-301,2026-04-03,preventive,closed,Tube bundle cleaning. Fouling factor restored.
+WO-1007,P-101,2026-09-05,inspection,closed,Visual inspection. Minor paint damage on baseplate.

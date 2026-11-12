@@ -1,0 +1,12 @@
+{"query": "P-102 vibration rising what should I do", "relevant_doc": "vibration_limits"}
+{"query": "pump vibration increasing trend", "relevant_doc": "vibration_limits"}
+{"query": "vibration 7.5 mm/s which zone", "relevant_doc": "vibration_limits"}
+{"query": "when should pump bearings be inspected", "relevant_doc": "pump_bearing_inspection"}
+{"query": "bearing defect frequencies in the spectrum", "relevant_doc": "pump_bearing_inspection"}
+{"query": "compressor bearing temperature alarm", "relevant_doc": "compressor_high_temperature"}
+{"query": "lube oil cooler fouling high temperature", "relevant_doc": "compressor_high_temperature"}
+{"query": "heat exchanger pressure drop cleaning", "relevant_doc": "heat_exchanger_fouling"}
+{"query": "tube bundle chemical cleaning", "relevant_doc": "heat_exchanger_fouling"}
+{"query": "who decides on shutdown", "relevant_doc": "work_permit_safety"}
+{"query": "is a work permit needed for intrusive maintenance", "relevant_doc": "work_permit_safety"}
+{"query": "can the assistant execute actions on equipment", "relevant_doc": "work_permit_safety"}
